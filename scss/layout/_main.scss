@@ -1,1 +1,376 @@
 /* _main */
+* {
+  font-family: "Pretendard", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+$gray: #202124;
+$sky: #20bffd;
+$light-gray: #8b8c90;
+$very-light-gray: #c6c6c7;
+
+.inner {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 96px;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .logo {
+    width: 190px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    .nav-item a {
+      padding: 15px 40px;
+      font-weight: 500;
+    }
+  }
+}
+
+.banner {
+  padding: 174px 0;
+  color: #ffffff;
+  background: url("../../assets/image/img_hero.png") center center/cover
+    no-repeat;
+  .banner-slogan {
+    font-size: torem(42);
+    font-weight: 700;
+  }
+  .banber-explain {
+    padding-top: 16px;
+    font-size: torem(20);
+  }
+}
+
+.strength {
+  padding-top: 100px;
+  color: $gray;
+  .strength-slogan {
+    padding-bottom: 32px;
+    font-size: torem(36);
+  }
+
+  .strength-list {
+    max-width: 1170px;
+    margin: 0;
+  }
+
+  .inner {
+    position: relative;
+  }
+
+  .strength-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .strength-image {
+    width: 46%;
+  }
+
+  .strength-explain {
+    width: 44.88%;
+    padding-top: 61px;
+    letter-spacing: -0.32px;
+    &::before {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 4px;
+      background-color: #000;
+    }
+    .cloud-solution {
+      padding-top: 24px;
+      .text {
+        padding-top: 12px;
+      }
+    }
+    .strength-title {
+      font-weight: 700;
+      font-size: torem(28);
+    }
+  }
+
+  .product {
+    padding-top: 56px;
+  }
+
+  .product-button {
+    width: 172px;
+    border: 1px solid #20bffd;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+
+    color: $sky;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+
+    background: url("../../assets/image/ic_arrow.png") 75% center/24px no-repeat;
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 51.7%;
+    width: auto;
+    transform: translateX(-48.3%);
+    color: #000;
+    font-size: torem(14);
+    font-weight: 500;
+    .swiper-pagination-total {
+      opacity: 0.5;
+    }
+  }
+}
+
+.news {
+  padding-top: 200px;
+  padding-bottom: 270px;
+  .inner {
+    display: flex;
+    gap: 8%;
+  }
+}
+
+.news-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  .news-title {
+    font-weight: bold;
+    font-size: torem(36);
+  }
+
+  .news-explain {
+    padding-bottom: 38px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+  }
+
+  .more {
+    width: 144px;
+    border: 1px solid #20bffd;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+
+    color: $sky;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+
+    background: url("../../assets/image/ic_arrow.png") 75% center/24px no-repeat;
+  }
+}
+
+.news-list {
+  display: flex;
+  gap: 2.423%;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 33.3333%;
+
+  .subtitle {
+    display: inline-block;
+    width: 100%;
+    font-size: torem(20);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .content {
+    display: -webkit-box;
+    width: 100%;
+    max-height: 72px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: $light-gray;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .date {
+    color: $light-gray;
+    font-size: torem(14);
+    font-weight: 500;
+  }
+}
+
+.inquire {
+  position: relative;
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    padding: 92px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: transparent linear-gradient(90deg, #20bffd 0%, #536aff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 4px 4px 8px #20212429;
+
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .inquire-title {
+    padding-bottom: 8px;
+    font-size: torem(32);
+    letter-spacing: -0.64px;
+  }
+
+  .inquire-text {
+    padding-bottom: 40px;
+    font-size: torem(20);
+    letter-spacing: -0.4px;
+  }
+
+  .inquire-button {
+    width: auto;
+    border-radius: 30px;
+    padding: 12.5px 40px;
+    color: $sky;
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+  }
+}
+
+.footer {
+  color: #fff;
+}
+.footer-top {
+  padding-top: 250px;
+
+  background-color: $gray;
+}
+
+.map-list {
+  display: flex;
+  padding-bottom: 56px;
+  .row {
+    display: flex;
+
+    &:not(:last-child) {
+      padding-bottom: 8px;
+    }
+  }
+
+  .content {
+    a {
+      font-size: torem(14);
+    }
+  }
+
+  .content-title {
+    padding-bottom: 16px;
+    font-size: torem(20);
+    font-weight: 700;
+    letter-spacing: -0.4px;
+  }
+
+  .map-item {
+    & > .content {
+      &:nth-child(2) {
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+  .map-item.about {
+    margin-right: 4.167%;
+  }
+
+  .map-item.resources {
+    margin-right: 9.8333%;
+  }
+
+  .map-item.contact {
+    display: grid;
+    width: 67%;
+  }
+
+  .map-item.social {
+    display: flex;
+    gap: 12px;
+
+    .sns {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .sns,
+    .sns-button {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+.content-wrap {
+  display: flex;
+  width: 65%;
+  font-size: torem(14);
+  .content {
+    width: 18%;
+  }
+
+  .content-text {
+    color: $very-light-gray;
+  }
+}
+
+.content-wrap2 {
+  display: flex;
+  width: 35%;
+  font-size: torem(14);
+  .content {
+    width: 40%;
+  }
+
+  .content-text {
+    color: $very-light-gray;
+  }
+}
+
+.additional-data {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  border-top: 1px solid #333c3d;
+  padding: 40px 0;
+  .link-data a {
+    padding: 12.5px 40px;
+    border-radius: 30px;
+    border: 1px solid #8b8c90;
+  }
+}
+
+.footer-bottom {
+  padding: 36px 0;
+  background-color: #000;
+  text-align: center;
+  .copyright {
+    color: $light-gray;
+    font-size: torem(14);
+  }
+}

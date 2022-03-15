@@ -14,10 +14,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url("../../fonts/pretendard/Pretendard-Regular.woff2");
+  src: url("../fonts/pretendard/Pretendard-Regular.woff2");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-Regular.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-Regular.woff") format("woff");
+    url("../fonts/pretendard/Pretendard-Regular.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -25,22 +25,20 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url("../../fonts/poppin/Poppins-Regular.ttf");
-  src: local(""),
-    url("../../fonts/poppin/Poppins-Regular.ttf") format("truetype");
+  src: url("../fonts/poppin/Poppins-Regular.ttf");
+  src: local(""), url("../fonts/poppin/Poppins-Regular.ttf") format("truetype");
   unicode-range: U+0020-007E;
   /* unicode-range: U+0030-0039; */
 }
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "Noto Sans KR";
   font-style: normal;
   font-display: swap;
-  font-weight: 500;
-  src: url("../../fonts/pretendard/Pretendard-Medium.woff2");
+  font-weight: 400;
+  src: url("../fonts/notosansKr/NotoSansKR-Regular.otf");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-Medium.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-Medium.woff") format("woff");
+    url("../fonts/notosansKr/NotoSansKR-Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -48,9 +46,19 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url("../../fonts/poppin/Poppins-Medium.ttf");
+  src: url("../fonts/pretendard/Pretendard-Medium.woff2");
   src: local(""),
-    url("../../fonts/poppin/Poppins-Medium.ttf") format("truetype");
+    url("../fonts/pretendard/Pretendard-Medium.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../fonts/poppin/Poppins-Medium.ttf");
+  src: local(""), url("../fonts/poppin/Poppins-Medium.ttf") format("truetype");
   unicode-range: U+0020-007E;
 }
 
@@ -59,9 +67,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url("../../fonts/notosansKr/NotoSansKR-Medium.otf");
+  src: url("../fonts/notosansKr/NotoSansKR-Medium.otf");
   src: local(""),
-    url("../../fonts/notosansKr/NotoSansKR-Medium.otf") format("opentype");
+    url("../fonts/notosansKr/NotoSansKR-Medium.otf") format("opentype");
 }
 
 @font-face {
@@ -69,10 +77,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url("../../fonts/pretendard/Pretendard-SemiBold.woff2");
+  src: url("../fonts/pretendard/Pretendard-SemiBold.woff2");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-SemiBold.woff") format("woff");
+    url("../fonts/pretendard/Pretendard-SemiBold.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -80,9 +88,8 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url("../../fonts/poppin/Poppins-SemiBold.ttf");
-  src: local(""),
-    url("../../fonts/poppin/Poppins-SemiBold.ttf") format("truetype");
+  src: url("../fonts/poppin/Poppins-SemiBold.ttf");
+  src: local(""), url("../fonts/poppin/Poppins-SemiBold.ttf") format("truetype");
   unicode-range: U+0020-007E;
 }
 
@@ -91,10 +98,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url("../../fonts/pretendard/Pretendard-Bold.woff2");
+  src: url("../fonts/pretendard/Pretendard-Bold.woff2");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-Bold.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-Bold.woff") format("woff");
+    url("../fonts/pretendard/Pretendard-Bold.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -102,8 +109,8 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url("../../fonts/poppin/Poppins-Bold.ttf");
-  src: local(""), url("../../fonts/poppin/Poppins-Bold.ttf") format("truetype");
+  src: url("../fonts/poppin/Poppins-Bold.ttf");
+  src: local(""), url("../fonts/poppin/Poppins-Bold.ttf") format("truetype");
   unicode-range: U+0020-007E;
 }
 
@@ -112,9 +119,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url("../../fonts/notosansKr/NotoSansKR-Bold.otf");
+  src: url("../fonts/notosansKr/NotoSansKR-Bold.otf");
   src: local(""),
-    url("../../fonts/notosansKr/NotoSansKR-Bold.otf") format("opentype");
+    url("../fonts/notosansKr/NotoSansKR-Bold.otf") format("opentype");
 }
 
 @font-face {
@@ -122,10 +129,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url("../../fonts/pretendard/Pretendard-ExtraBold.woff2");
+  src: url("../fonts/pretendard/Pretendard-ExtraBold.woff2");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-ExtraBold.woff") format("woff");
+    url("../fonts/pretendard/Pretendard-ExtraBold.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-ExtraBold.woff") format("woff");
 }
 
 @font-face {
@@ -133,9 +140,9 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url("../../fonts/poppin/Poppins-ExtraBold.ttf");
+  src: url("../fonts/poppin/Poppins-ExtraBold.ttf");
   src: local(""),
-    url("../../fonts/poppin/Poppins-ExtraBold.ttf") format("truetype");
+    url("../fonts/poppin/Poppins-ExtraBold.ttf") format("truetype");
   unicode-range: U+0020-007E;
 }
 
@@ -144,10 +151,10 @@
   font-style: normal;
   font-display: swap;
   font-weight: 900;
-  src: url("../../fonts/pretendard/Pretendard-Black.woff2");
+  src: url("../fonts/pretendard/Pretendard-Black.woff2");
   src: local(""),
-    url("../../fonts/pretendard/Pretendard-Black.woff2") format("woff2"),
-    url("../../fonts/pretendard/Pretendard-Black.woff") format("woff");
+    url("../fonts/pretendard/Pretendard-Black.woff2") format("woff2"),
+    url("../fonts/pretendard/Pretendard-Black.woff") format("woff");
 }
 
 @font-face {
@@ -155,7 +162,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 900;
-  src: url("../../fonts/poppin/Poppins-Black.ttf");
-  src: local(""), url("../../fonts/poppin/Poppins-Black.ttf") format("truetype");
+  src: url("../fonts/poppin/Poppins-Black.ttf");
+  src: local(""), url("../fonts/poppin/Poppins-Black.ttf") format("truetype");
   unicode-range: U+0020-007E;
 }

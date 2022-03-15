@@ -42,8 +42,7 @@ $very-light-gray: #c6c6c7;
 .banner {
   padding: 174px 0;
   color: #ffffff;
-  background: url("../../assets/image/img_hero.png") center center/cover
-    no-repeat;
+  background: url("../assets/image/img_hero.png") center center/cover no-repeat;
   .banner-slogan {
     font-size: torem(42);
     font-weight: 700;
@@ -117,7 +116,7 @@ $very-light-gray: #c6c6c7;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
 
-    background: url("../../assets/image/ic_arrow.png") 75% center/24px no-repeat;
+    background: url("../assets/image/ic_arrow.png") 75% center/24px no-repeat;
   }
 
   .swiper-pagination {
@@ -170,7 +169,7 @@ $very-light-gray: #c6c6c7;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
 
-    background: url("../../assets/image/ic_arrow.png") 75% center/24px no-repeat;
+    background: url("../assets/image/ic_arrow.png") 75% center/24px no-repeat;
   }
 }
 

@@ -17,6 +17,29 @@ $very-light-gray: #c6c6c7;
   margin: 0 auto;
 }
 
+.warning {
+  background-color: #e6e6e6;
+  .inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 50px;
+    .text {
+      font-weight: 500;
+      font-family: "Noto Sans KR", sans-serif;
+    }
+    &::before {
+      content: "❕";
+      display: block;
+      width: 28px;
+      height: 28px;
+
+      text-align: center;
+      line-height: 28px;
+    }
+  }
+}
+
 .header {
   height: 96px;
   .inner {
@@ -54,16 +77,16 @@ $very-light-gray: #c6c6c7;
 }
 
 .strength {
-  padding-top: 100px;
+  padding: 100px 0;
   color: $gray;
   .strength-slogan {
     padding-bottom: 32px;
     font-size: torem(36);
   }
 
-  .strength-list {
-    max-width: 1170px;
-    margin: 0;
+  .strength-slide {
+    display: flex;
+    gap: 107px;
   }
 
   .inner {
@@ -75,12 +98,15 @@ $very-light-gray: #c6c6c7;
     justify-content: space-between;
   }
 
-  .strength-image {
+  .strength-picture {
     width: 46%;
   }
 
-  .strength-explain {
+  .strength-discription {
     width: 44.88%;
+  }
+
+  .strength-explain {
     padding-top: 61px;
     letter-spacing: -0.32px;
     &::before {
@@ -122,9 +148,9 @@ $very-light-gray: #c6c6c7;
   .swiper-pagination {
     position: absolute;
     bottom: 0;
-    left: 51.7%;
+    left: 56%;
     width: auto;
-    transform: translateX(-48.3%);
+    transform: translateX(-44%);
     color: #000;
     font-size: torem(14);
     font-weight: 500;
@@ -135,8 +161,10 @@ $very-light-gray: #c6c6c7;
 }
 
 .news {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 270px;
+
+  background-color: #f0f4fc;
   .inner {
     display: flex;
     gap: 8%;
